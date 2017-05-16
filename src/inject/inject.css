@@ -1,0 +1,24 @@
+#helper-toggle{
+	z-index: 1;
+	position: fixed;
+	top: 0;
+}
+#helper-bar{
+	width: 100%;
+	position: fixed;
+	top:0;
+	padding:20px;
+	display:none;
+	background-color: rgba(0,0,0,0.8);
+}
+#helper-bar.active{
+	display: block;
+}
+#helper-players table{
+	font-family: Arial;
+	font-size: 14px;
+}
+#helper-players table th, #helper-players table td{
+	padding:4px;
+	text-transform: capitalize;
+}
